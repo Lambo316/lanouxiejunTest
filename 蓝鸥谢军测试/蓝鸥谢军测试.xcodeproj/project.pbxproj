@@ -13,6 +13,7 @@
 		3FC7849D1CF58FA900DB3AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7849B1CF58FA900DB3AD1 /* Main.storyboard */; };
 		3FC7849F1CF58FA900DB3AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7849E1CF58FA900DB3AD1 /* Assets.xcassets */; };
 		3FC784A21CF58FA900DB3AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC784A01CF58FA900DB3AD1 /* LaunchScreen.storyboard */; };
+		3FC784AB1CF5920B00DB3AD1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC784AA1CF5920B00DB3AD1 /* TestViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3FC7849E1CF58FA900DB3AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC784A11CF58FA900DB3AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC784A31CF58FA900DB3AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC784A91CF5920B00DB3AD1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3FC784AA1CF5920B00DB3AD1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				3FC784961CF58FA900DB3AD1 /* AppDelegate.m */,
 				3FC784981CF58FA900DB3AD1 /* ViewController.h */,
 				3FC784991CF58FA900DB3AD1 /* ViewController.m */,
+				3FC784A91CF5920B00DB3AD1 /* TestViewController.h */,
+				3FC784AA1CF5920B00DB3AD1 /* TestViewController.m */,
 				3FC7849B1CF58FA900DB3AD1 /* Main.storyboard */,
 				3FC7849E1CF58FA900DB3AD1 /* Assets.xcassets */,
 				3FC784A01CF58FA900DB3AD1 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				3FC7849A1CF58FA900DB3AD1 /* ViewController.m in Sources */,
 				3FC784971CF58FA900DB3AD1 /* AppDelegate.m in Sources */,
+				3FC784AB1CF5920B00DB3AD1 /* TestViewController.m in Sources */,
 				3FC784941CF58FA900DB3AD1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				3FC784A81CF58FA900DB3AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
